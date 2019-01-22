@@ -27,12 +27,10 @@ class ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___RouterDelegate {
         presenter.interactor = interactor
         interactor.presenter = presenter
 
-        let navController = UINavigationController(rootViewController: vc)
-        navController.navigationBar.prefersLargeTitles = false
-        navController.navigationBar.tintColor = UIColor.white
-        navController.navigationBar.barTintColor = UIColor.flatBlue
-        navController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        return vc
+    }
 
-        return navController
+    func dismiss(view: UIViewController) {
+        view.dismiss(animated: true, completion: nil)
     }
 }

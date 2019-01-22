@@ -5,7 +5,8 @@ Generator of Viber template on Xcode.
 VIPER is our application of Clean Architecture to iOS apps. 
 
 ## Installation
-- Download `https://github.com/LearnerMN/Viber-Template/archive/master.zip` or clone `https://github.com/LearnerMN/Viber-Template.git` the repository
+- Download `https://github.com/LearnerMN/Viber-Template/archive/master.zip` 
+or clone `https://github.com/LearnerMN/Viber-Template.git` the repository
 ### Manual
 - Copy the `Design Pattern` folder to `~/Library/Developer/Xcode/Templates/File Templates/`
 ### Auto

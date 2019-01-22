@@ -1,5 +1,5 @@
-# Viber-Template
-Generator of Viber template on Xcode.
+# Viper-Template
+Generator of Viper template on Xcode.
 
 ## About VIPER
 VIPER is our application of Clean Architecture to iOS apps. 

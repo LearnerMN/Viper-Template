@@ -31,10 +31,12 @@ protocol ___VARIABLE_ModuleName___PresenterDelegate: class {
     var router: ___VARIABLE_ModuleName___RouterDelegate? { get set }
 
     func viewDidLoad()
+    func dismiss()
 }
 
 // MARK: - Router
 
 protocol ___VARIABLE_ModuleName___RouterDelegate: class {
     static func create___VARIABLE_ModuleName___ViewController(_ view: ___VARIABLE_ModuleName___View?) -> UIViewController
+    func dismiss(view: UIViewController)
 }

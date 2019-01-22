@@ -16,6 +16,14 @@ class ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresenterDele
     func viewDidLoad() {
 
     }
+
+    func dismiss() {
+    	if let viewController = self.view as? UIViewController {
+            if let nav = viewController.navigationController {
+                self.router?.dismiss(view: nav)
+            }
+        }
+    }
 }
 
 extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___InteractorOutputDelegate {

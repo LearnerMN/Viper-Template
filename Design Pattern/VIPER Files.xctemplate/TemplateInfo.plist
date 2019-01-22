@@ -33,6 +33,25 @@
 			<string>text</string>
 		</dict>
 		<dict>
+	      <key>Identifier</key>
+	      <string>viewType</string>
+	      <key>Required</key>
+	      <true/>
+	      <key>Name</key>
+	      <string>Controller type:</string>
+	      <key>Description</key>
+	      <string>The type of controller to use</string>
+	      <key>Type</key>
+	      <string>popup</string>
+	      <key>Default</key>
+	      <string>ViewController</string>
+	      <key>Values</key>
+	      <array>
+	        <string>ViewController</string>
+	        <string>NavigationController</string>
+	      </array>
+	    </dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_ModuleName:identifier___</string>
 			<key>Identifier</key>

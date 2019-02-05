@@ -26,3 +26,11 @@ or clone `https://github.com/LearnerMN/Viber-Template.git` the repository
 - {{ModuleName}}Interactor.swift
 - {{ModuleName}}Router.swift
 ```
+
+## Viper Test files
+```
+- {{ModuleName}}ViewTests.swift
+- {{ModuleName}}PresenterTests.swift
+- {{ModuleName}}InteractorTests.swift
+- {{ModuleName}}RouterTests.swift
+```

@@ -15,7 +15,7 @@ or clone `https://github.com/LearnerMN/Viber-Template.git` the repository
 ## Using the template
 - Start Xcode and create a new group for your VIPER module
 - Create a new file (`File > New > File`)
-- Choose `Design Pattern` and `VIPER`
+- Choose `Design Pattern` and `VIPER` or `VIPER Test`
 - Type in the name of the module you want to create
 
 ## Viper files
